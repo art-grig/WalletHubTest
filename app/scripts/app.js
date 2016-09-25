@@ -9,4 +9,4 @@
  * Main module of the application.
  */
 angular
-  .module('grigoryantsTestApp', ['ui.router']);
+  .module('grigoryantsTestApp', ['ui.router','ui.grid', 'ui.grid.edit', 'ui.grid.resizeColumns','ngAnimate']);

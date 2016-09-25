@@ -11,7 +11,7 @@ angular
         if ($stateParams.pageName == null) {
           $stateParams.pageName = 'main';
         }
-        return '/views/' + $stateParams.pageName + '.html';
+        return '  views/' + $stateParams.pageName + '.html';
       },
       params: {
         pageName: {squash: true, value: null},

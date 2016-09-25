@@ -3,3 +3,19 @@
   <input type="text" ng-model="ctrl.sharedService.data">
   <br>Input is : <strong>{{ctrl.sharedService.data}}</strong>
 </div>
+
+<label>
+  <input phone-number placeholder="phone number" name='numValue' ng-model="numValue">
+  <button ng-click="numValue='';">reset</button>
+</label>
+<h2 ng-show="numValue">valid number: {{ numValue }}</h2>
+<br>
+<input type="text" ng-model="money" currency-input size="30" placeholder="insert currency value">
+
+<div class="footer" >
+  <div class="container">
+    <p><span class="glyphicon glyphicon-heart"></span> special for WalletHub</p>
+  </div>
+</div>
+
+
