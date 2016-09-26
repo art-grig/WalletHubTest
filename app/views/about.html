@@ -2,8 +2,7 @@
   <p>This is the {{ctrl.view}} view.</p>
   <input type="text" ng-model="ctrl.sharedService.data">
   <br>Input is : <strong>{{ctrl.sharedService.data}}</strong>
-</div>
-
+  <br>
 <label>
   <input phone-number placeholder="phone number" name='numValue' ng-model="numValue">
   <button ng-click="numValue='';">reset</button>
@@ -11,6 +10,7 @@
 <h2 ng-show="numValue">valid number: {{ numValue }}</h2>
 <br>
 <input type="text" ng-model="money" currency-input size="30" placeholder="insert currency value">
+</div>
 
 <div class="footer" >
   <div class="container">

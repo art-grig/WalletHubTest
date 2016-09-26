@@ -6,4 +6,5 @@ angular.module('grigoryantsTestApp')
     var ctrl = this;
     ctrl.view = 'about';
     ctrl.sharedService = ShareService;
+    ctrl.parseFloat = parseFloat;
   });
