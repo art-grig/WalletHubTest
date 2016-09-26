@@ -11,7 +11,6 @@ angular.module('grigoryantsTestApp')
     $scope.third = 100;
     $scope.recalculate = function (bool) {
       if (bool) {
-        console.log(bool + flag);
         $scope.sum = $scope.first + $scope.second + $scope.third;
       }
       else {
